@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Main Folder/Scene/Scene.unity
+- path: Assets/TowerDefence_Vsquad/Scenes/Desert_land_3.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
