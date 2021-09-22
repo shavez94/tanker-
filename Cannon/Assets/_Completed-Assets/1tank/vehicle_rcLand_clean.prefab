@@ -142,7 +142,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8a2cdad74228711478ebd2af285b3d1b, type: 2}
+  - {fileID: 2100000, guid: d1bdeb3a26098ab42b6033c68ee9fe79, type: 2}
   - {fileID: 2100000, guid: c8feac4b94aa6d741a4cb6b18a14dcd4, type: 2}
   - {fileID: 2100000, guid: d1bdeb3a26098ab42b6033c68ee9fe79, type: 2}
   m_StaticBatchInfo:
@@ -1221,7 +1221,6 @@ GameObject:
   - component: {fileID: 9078323993985794019}
   - component: {fileID: 9078323993985794014}
   - component: {fileID: 9078323993985794017}
-  - component: {fileID: 9078323993985794018}
   m_Layer: 8
   m_Name: vehicle_rcLand_clean
   m_TagString: Untagged
@@ -1290,8 +1289,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b1fa7e3a0c82074cabef515d0737ee3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minimumCoordinates: {x: -6.7, y: -10.4}
-  maximumCoordinates: {x: 7.3, y: 10.2}
+  minimumCoordinates: {x: -10.30285, y: 15.38923}
+  maximumCoordinates: {x: 9.377597, y: 24.07934}
   speedVariance: {x: 3, y: 7}
   newDestinationTimeVariance: {x: 0.1, y: 1}
   newSpeedTimeVariance: {x: 1, y: 3}
@@ -1317,19 +1316,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &9078323993985794018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9078323994181715772}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ade5d68486b1cb45ba317ac836b150b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  relativeSpeed: 100
 --- !u!1 &9078323994181715774
 GameObject:
   m_ObjectHideFlags: 0
@@ -1472,7 +1458,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8a2cdad74228711478ebd2af285b3d1b, type: 2}
+  - {fileID: 2100000, guid: c8feac4b94aa6d741a4cb6b18a14dcd4, type: 2}
   - {fileID: 2100000, guid: c8feac4b94aa6d741a4cb6b18a14dcd4, type: 2}
   - {fileID: 2100000, guid: d1bdeb3a26098ab42b6033c68ee9fe79, type: 2}
   m_StaticBatchInfo:
@@ -1556,7 +1542,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8a2cdad74228711478ebd2af285b3d1b, type: 2}
+  - {fileID: 2100000, guid: c8feac4b94aa6d741a4cb6b18a14dcd4, type: 2}
   - {fileID: 2100000, guid: d1bdeb3a26098ab42b6033c68ee9fe79, type: 2}
   - {fileID: 2100000, guid: c8feac4b94aa6d741a4cb6b18a14dcd4, type: 2}
   m_StaticBatchInfo:
@@ -1640,7 +1626,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8a2cdad74228711478ebd2af285b3d1b, type: 2}
+  - {fileID: 2100000, guid: d1bdeb3a26098ab42b6033c68ee9fe79, type: 2}
   - {fileID: 2100000, guid: c8feac4b94aa6d741a4cb6b18a14dcd4, type: 2}
   - {fileID: 2100000, guid: d1bdeb3a26098ab42b6033c68ee9fe79, type: 2}
   m_StaticBatchInfo:
