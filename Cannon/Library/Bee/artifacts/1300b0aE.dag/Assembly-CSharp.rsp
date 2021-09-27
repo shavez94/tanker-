@@ -109,7 +109,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
--define:ENABLE_LEGACY_INPUT_MANAGER
+-define:ENABLE_INPUT_SYSTEM
 -define:CROSS_PLATFORM_INPUT
 -define:MOBILE_INPUT
 -define:UNITY_POST_PROCESSING_STACK_V2
@@ -316,6 +316,7 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.2D.Tilemap.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Analytics.DataPrivacy.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Mathematics.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Mathematics.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -423,7 +424,6 @@
 "Assets/Cinemachine/Timeline/CinemachineMixer.cs"
 "Assets/Cinemachine/Timeline/CinemachineShot.cs"
 "Assets/Cinemachine/Timeline/CinemachineTrack.cs"
-"Assets/IDragHandler.cs"
 "Assets/Joystick Pack/Examples/JoystickPlayerExample.cs"
 "Assets/Joystick Pack/Examples/JoystickSetterExample.cs"
 "Assets/player.cs"
@@ -435,6 +435,7 @@
 "Assets/SampleScenes/Scripts/ParticleSceneControls.cs"
 "Assets/SampleScenes/Scripts/PlaceTargetWithMouse.cs"
 "Assets/SampleScenes/Scripts/SlowMoButton.cs"
+"Assets/Scripts/GameSystem/InputControls.cs"
 "Assets/_Completed-Assets/Ultimate 10 Plus Shaders/Scripts/U10PS_DissolveOverTime.cs"
 "Assets/_Completed-Assets/Ultimate 10 Plus Shaders/Scripts/U10PS_ExampleReview.cs"
 "Assets/_Completed-Assets/Ultimate 10 Plus Shaders/Scripts/U10PS_MouseRotation.cs"
